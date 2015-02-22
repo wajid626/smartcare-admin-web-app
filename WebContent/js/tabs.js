@@ -30,7 +30,7 @@ Ext.onReady(function(){
         },
         items: [{
                 title: 'Appointments',
-                id :'users',
+                id :'Appointments',
                 loader: {
                     url: 'appointments-tab.html',
                     contentType: 'html',
@@ -46,7 +46,8 @@ Ext.onReady(function(){
                     autoLoad: true
                 },
             },{
-                title: 'Beacons',
+                id : 'Beacons',
+            	title: 'Beacons',
                 loader: {
                     url: 'beacons-tab.html',
                     contentType: 'html',

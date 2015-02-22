@@ -17,7 +17,7 @@ var user =  Ext.define('usermodel', {
    model: user,
    proxy: {
        type: 'ajax',
-       url : 'json/beacons.json',
+       url : 'http://localhost:8080/smartcare-services/rest/AdminService/findBeaconDetails',
        reader: {
            type: 'json',
            root: 'beacons'
