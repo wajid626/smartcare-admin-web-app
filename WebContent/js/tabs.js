@@ -53,8 +53,8 @@ Ext.onReady(function(){
                     contentType: 'html',
                 },
                 listeners: {
-                	activate: function(tab) {
-                		tab.loader.load();
+                	activate: function(tabs) {
+                		tabs.loader.load();
                 	}
                 }
             

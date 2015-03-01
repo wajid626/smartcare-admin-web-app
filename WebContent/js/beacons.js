@@ -17,7 +17,7 @@ var user =  Ext.define('usermodel', {
    model: user,
    proxy: {
        type: 'ajax',
-       url : 'http://localhost:8080/smartcare-services/rest/AdminService/findBeaconDetails',
+       url : 'http://smartcare-services.elasticbeanstalk.com/rest/AdminService/findBeaconDetails',
        reader: {
            type: 'json',
            root: 'beacons'

@@ -16,7 +16,7 @@ var rental =  Ext.define('rentalmodel', {
    model: rental,
    proxy: {
        type: 'ajax',
-       url : 'http://localhost:8080/smartcare-services/rest/AdminService/findPaymentDetails',
+       url : 'http://smartcare-services.elasticbeanstalk.com/rest/AdminService/findPaymentDetails',
        reader: {
            type: 'json',
            root: 'payments'

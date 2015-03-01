@@ -20,7 +20,7 @@ var movie =  Ext.define('appointmentsmodel', {
    model: movie,
    proxy: {
        type: 'ajax',
-       url : 'json/appointments.json',
+       url : 'http://smartcare-services.elasticbeanstalk.com/rest/AdminService/findAllAppointments',
        reader: {
            type: 'json',
            root: 'appointments'
